@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>لينجو ليرن | مستر محمد عبد العزيز</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app" id="app" data-side="open">
+  <aside class="side" id="side" aria-label="القائمة الجانبية">
+    <div class="brand">
+      <div class="logo en">L</div>
+      <div><b>لينجو ليرن</b><small>مستر محمد عبد العزيز</small></div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="side-foot" id="foot"></div>
+  </aside>
+  <div class="scrim" data-act="closeSide"></div>
+  <div class="wrap">
+    <header class="top">
+      <button class="icon-btn" data-act="toggleSide" aria-label="إظهار أو إخفاء القائمة" id="menuBtn"></button>
+      <div class="crumbs" id="crumbs"></div>
+      <button class="icon-btn" data-act="theme" aria-label="تبديل الوضع الليلي" id="themeBtn"></button>
+    </header>
+    <main id="main"></main>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
